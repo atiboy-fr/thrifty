@@ -1,0 +1,36 @@
+
+.heroSection {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.heroParagraph {
+    letter-spacing: 2px;
+}
+
+.heroHeading {
+    font-family: "Playwrite GB S", cursive;
+    font-size: 5.5rem;
+    line-height: 8rem;
+}
+
+@media screen and (max-width: 600px) {
+    .heroSection {
+        font-size: 0.9rem;
+        padding-bottom: 30px;
+    }
+
+    .heroHeading {
+        font-size: 3rem;
+        line-height: 5rem;
+    }
+}

@@ -1,0 +1,75 @@
+.cartItem {
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 80%;
+    border-bottom: 1px solid grey;
+    margin: auto;
+    margin-bottom: 10px;
+    gap: 50px;
+    padding: 20px;
+    text-align: left;
+    line-height: 2rem;
+    height: fit-content;
+    /* padding: 10px; */
+    font-family: "Roboto", sans-serif;
+    margin: auto;
+
+    & img {
+        width: 150px;
+        height: 150px;
+        border-radius: 5px;
+    }
+}
+
+.cartProductName {
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.category {
+    font-size: 0.8rem;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.delete {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.quantity {
+    font-size: 0.8rem;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+}
+
+.price {
+    font-size: 0.9rem;
+    color: #000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+
+.deleteBtn {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: #EC8305;
+    color: #fff;
+    font-size: 0.6rem;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.textContainer {
+    width: 30%;
+}
+
+.cartButtons {
+    line-height: 5rem;
+}

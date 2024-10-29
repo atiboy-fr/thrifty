@@ -1,0 +1,13 @@
+.sizeBtn {
+    padding: 5px;
+    width: 30px;
+    color: #6d7068;
+    background-color: white;
+    outline: none;
+    border: 1px solid;
+    border-radius: 3px;
+}
+
+.sizeBtn:focus {
+    border: 2px solid black;
+}

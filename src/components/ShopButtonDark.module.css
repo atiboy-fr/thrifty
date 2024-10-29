@@ -1,0 +1,15 @@
+.shopBtn {
+    border: 2px solid #024CAA;
+    padding: 15px;
+    background: inherit;
+    width: 150px;
+    color: #091057;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    margin-top: 20px;
+}
+
+.shopBtn:hover {
+    background-color: #024CAA;
+    color: #000000;
+}

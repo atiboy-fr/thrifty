@@ -1,0 +1,11 @@
+.shopNav {
+    background-color: #DBD3D3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+
+}
+
+.shop {
+    background-color: #dbd3d360;
+}

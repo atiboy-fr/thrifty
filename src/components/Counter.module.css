@@ -1,0 +1,22 @@
+.counterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    
+
+    & button {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: 1px solid #EC8305;
+        background-color: #EC8305;
+        outline: none;
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        font-size: 1rem;
+        cursor: pointer;
+    }
+}

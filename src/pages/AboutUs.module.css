@@ -1,0 +1,15 @@
+.about {
+    background-color: #dbd3d360;
+    
+}
+
+.aboutNav {
+    background-color: #DBD3D3;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.aboutSection {
+    height: 100dvh;
+}

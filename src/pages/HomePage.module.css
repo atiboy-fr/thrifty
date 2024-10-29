@@ -1,0 +1,14 @@
+.homePageHead {
+    background: url('images/thrify-home-background.jpeg');
+    background-size: cover;
+    height: 100dvh;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    .homePageHead {
+        height: fit-content;
+        background-position: center;
+    }
+}

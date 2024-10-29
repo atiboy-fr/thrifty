@@ -1,0 +1,54 @@
+.container {
+    background: url('images/thrifty-lastback-ground.jpg');
+    background-size: cover;
+    height: 100dvh;
+    background-position: bottom;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+}
+
+.textContainer {
+    width: 45%;
+    backdrop-filter: blur(3px);
+
+    & h3 {
+        font-family: "Playwrite GB S", cursive;
+        font-size: 2rem;
+        line-height: 2.5rem;
+        
+    }
+    & p {
+        line-height: 1.8rem;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        height: fit-content;
+        background-position: center;
+        justify-content: center;
+    }
+
+    .textContainer {
+        width: 100%;
+        backdrop-filter: none;
+        color: #000000a2;
+        
+
+        & h3 {
+            font-size: 1.5rem;
+            line-height: 2.2rem;
+        }
+
+        & p {
+            /* font-size: 0.9rem; */
+            line-height: 1.5rem;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.checkout {
+    padding: 10px;
+    height: 50px;
+    background-color: #90ee9077;
+    border: 1px solid #008000b2;
+    color: #000;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.checkout:hover {
+    background-color: #90ee90;
+    border: 1px solid #006400;
+}
+
+.checkout:focus {
+    background-color: #90ee90;
+    border: 1px solid #006400;
+    color: #fff;
+}

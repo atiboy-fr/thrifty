@@ -1,0 +1,57 @@
+.discoverContainer {
+    width: 100%;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    background-color: #EC8305;
+    color: #fff;
+}
+
+.firstSection {
+    width: 40%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.headline {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.subHeadline {
+    font-family: "Playwrite GB S", cursive;
+    font-size: 2.3rem;
+}
+
+.secondSection {
+    width: 50%;
+}
+
+.description {
+    color: #DBD3D3;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+
+    .discoverContainer {
+        height: 70dvh;
+        line-height: 1.5rem;
+    }
+
+    .secondSection {
+        display: none;
+        font-size: 0.8rem;
+    }
+
+    .firstSection {
+        width: 80%;
+    }
+
+    .headline {
+        font-size: 0.9rem;
+    }
+
+    .subHeadline {
+        font-size: 1.2rem;
+    }
+}

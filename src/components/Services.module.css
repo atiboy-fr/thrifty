@@ -1,0 +1,38 @@
+.servicesContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    line-height: 2rem;
+    height: fit-content;
+    padding: 20px;
+
+    & div {
+        width: 20%;
+
+        & h3 {
+            font-family: "Playwrite GB S", cursive;
+            font-size: 1.2;
+        }
+
+        & p {
+            font-family: "Roboto", sans-serif;
+            font-size: 0.9rem;
+            color: #808080;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .servicesContainer {
+        display: block;
+
+        & div {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+    }
+}
