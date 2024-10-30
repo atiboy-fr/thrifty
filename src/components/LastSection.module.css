@@ -1,5 +1,5 @@
 .container {
-    background: url('images/thrifty-lastback-ground.jpg');
+    background: url('./images/thrifty-lastback-ground.jpg');
     background-size: cover;
     height: 100dvh;
     background-position: bottom;
