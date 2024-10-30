@@ -1,5 +1,5 @@
 .explore {
-    background: url('./images/thrifty-jeanbackground.jpeg');
+    background: url('../../images/thrifty-jeanbackground.jpeg');
     background-size: cover;
     display: flex;
     justify-content: right;
