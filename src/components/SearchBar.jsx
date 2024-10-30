@@ -2,9 +2,11 @@ import React, { useEffect, useRef, useState } from 'react'
 import { FaSearch } from 'react-icons/fa'
 import styles from './SearchBar.module.css'
 import { useQuery } from '../context/SearchContext'
+import { useNavigate } from 'react-router-dom'
 
 function SearchBar({setIsSearchClicked}) {
   const {query, setQuery} = useQuery()
+  const navigate = useNavigate()
   const inputRef = useRef(null)
 
   useEffect(function() {
@@ -13,6 +15,7 @@ function SearchBar({setIsSearchClicked}) {
 
     function handleClick() {
         setIsSearchClicked(false)
+      if(query.length > 0) navigate('/shop')
     }
 
   return (

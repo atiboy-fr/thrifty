@@ -19,10 +19,13 @@ function AllProducts() {
 
     const anyProductFound = allShopProducts.filter((shop) => shop.category.toLowerCase().includes(query.toLowerCase()) || shop.productName.toLowerCase().includes(query.toLowerCase()))
 
-    
+    function handleShowProducts() {
+        setQuery('')
+    }
 
   return (
-    <section className={styles.allProductContainer}>
+    <section className={styles.allProductContainer} data-aos="fade-down">
+        <p onClick={handleShowProducts} className={styles.showAll}>Show All Products</p>
         <h2>All Products</h2>
         <div className={styles.products}>
             {anyProductFound.length === 0 ? <h1>Ooops ! No Products Found for this Search</h1> : allShopProducts.map((product) => (

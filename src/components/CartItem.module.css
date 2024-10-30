@@ -73,3 +73,30 @@
 .cartButtons {
     line-height: 5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .cartItem {
+        width: 100%;
+        gap: 10px;
+        align-items: start;
+        line-height: 1.6rem;
+        padding: 10px;
+
+        & img {
+            width: 120px;
+            height: 160px;
+        }
+    }
+
+    .cartProductName {
+        font-size: 0.9rem;
+    }
+    
+    .price {
+        font-size: 0.8rem;
+    }
+
+    .cartButtons {
+        margin-top: 10px;
+    }
+}

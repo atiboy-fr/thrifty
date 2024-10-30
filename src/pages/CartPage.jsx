@@ -7,10 +7,17 @@ import CartItem from '../components/CartItem'
 import ShopButton from '../components/ShopButton'
 import ShopButtonDark from '../components/ShopButtonDark'
 import CheckoutButton from '../components/CheckoutButton'
+import { FaAngleLeft } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
+
 
 function CartPage() {
-  const {cart} = useCart()
+  const {cart, clearCart} = useCart()
   const totalCartPrice = cart.reduce((acc, item) => (item.quantity * item.price) + acc, 0)
+
+  function handleClearCart() {
+    clearCart()
+  }
 
   return (
     <div className={styles.cart}>
@@ -18,7 +25,10 @@ function CartPage() {
           <PageNav includeSearch={false} />
         </div>
 
-        <h1 className={styles.cartHeading}>Cart</h1>
+        <div className={styles.cartHeading}>
+          <Link to={'/shop'}><FaAngleLeft size={'50px'}/></Link>
+          <h1>Cart</h1>
+        </div>
 
         <section className={styles.cartSection}>
         {!cart.length ? 
@@ -38,7 +48,7 @@ function CartPage() {
                 <p className={styles.price}>SUBTOTAL PRICE: ₦ <span>{totalCartPrice}</span></p>
                 <p className={styles.price}>TOTAL PRICE: ₦ <span>{totalCartPrice}</span></p>
               </>
-              <CheckoutButton />
+              <CheckoutButton onClick={handleClearCart}/>
             </div>
           </>
           }

@@ -6,8 +6,8 @@
 .cartNav {
     background-color: #DBD3D3;
     height: 60px;
-    display: flex;
-    align-items: center;
+    /* display: flex;
+    align-items: center; */
 }
 
 .cartSection {
@@ -16,11 +16,17 @@
 
 .cartHeading {
     font-family: "Roboto", sans-serif;
-    font-size: 3rem;
-    color: #024CAA;
-    letter-spacing: 0.1rem;
-    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
     margin-top: 1rem;
+
+    & h1 {
+        font-size: 3rem;
+        color: #024CAA;
+        letter-spacing: 0.1rem;
+    }
 }
 
 .cartContainer {
@@ -64,5 +70,12 @@
     & h2 {
         font-size: 1.8rem;
         /* color: #fff; */
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cartContainer {
+        width: 90%;
+        overflow-x: hidden;
     }
 }

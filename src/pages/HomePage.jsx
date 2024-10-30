@@ -14,11 +14,14 @@ import AOS  from 'aos'
 import 'aos/dist/aos.css';
 
 function HomePage() {
+
   
   return (
     <div data-aos="fade-in">
       <div className={styles.homePageHead}>
-        <PageNav />
+        <div className={styles.homeNav}>
+          <PageNav />
+        </div>
         <HeroSection />
       </div>
 

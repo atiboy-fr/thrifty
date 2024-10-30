@@ -3,6 +3,7 @@ import styles from './ShopProduct.module.css'
 import SizesButton from './SizesButton'
 import { useCart } from '../context/CartContextProvider'
 import Counter from './Counter'
+import AddToCart from './AddToCart'
 
 function ShopProduct({product}) {
 
@@ -45,7 +46,7 @@ function ShopProduct({product}) {
           ))}
         </div>
         <div>
-        {!currentQuantity ? <button className={styles.addBtn} onClick={handleAddToCart}>Add to Cart</button> :
+        {!currentQuantity ? <AddToCart  onClick={handleAddToCart} /> :
         <Counter handleCounterDecrease={handleDecrease} handleCounterIncrease={handleIncrease} quantity={currentQuantity}/>
         }
         
