@@ -38,7 +38,7 @@
     .textContainer {
         width: 100%;
         backdrop-filter: none;
-        color: #000000a2;
+        color: #fff;
         
 
         & h3 {

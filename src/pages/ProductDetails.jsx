@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 function ProductDetails() {
   const {id} = useParams()
@@ -7,7 +7,10 @@ function ProductDetails() {
   
 
   return (
-    <div>{id}</div>
+    <div>
+    <Link to={'/'}>back home</Link>
+    <h1>{id}</h1>
+    </div>
   )
 }
 
