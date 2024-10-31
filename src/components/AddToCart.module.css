@@ -13,6 +13,7 @@
     border: none;
     font-weight: 600;
     margin-top: 1rem;
+    cursor: pointer;
 }
 
 .addBtn:hover {

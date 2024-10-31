@@ -20,7 +20,7 @@ function CartPage() {
   }
 
   return (
-    <div className={styles.cart}>
+    <div className={styles.cart} data-aos="fade-in">
         <div className={styles.cartNav}>
           <PageNav includeSearch={false} />
         </div>

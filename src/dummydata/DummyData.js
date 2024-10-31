@@ -1,6 +1,6 @@
 export const showCaseProductWears = [
     {
-        image: 'images/thrify-baggyjean4.jpg',
+        image: '../../images/thrify-baggyjean4.jpg',
         productName: 'Baggy Jean 101',
         category: 'Cropped Tees',
         price: 15000,
@@ -8,7 +8,7 @@ export const showCaseProductWears = [
         id: '24567',
     },
     {
-        image: 'images/thrifty-baggyjean3.jpg',
+        image: '../../images/thrifty-baggyjean3.jpg',
         productName: 'Baggy Jean 103',
         category: 'Cropped Tees',
         price: 16500,
@@ -16,7 +16,7 @@ export const showCaseProductWears = [
         id: '36827',
     },
     {
-        image: 'images/thrifty-tshirtdiscover.png',
+        image: '../../images/thrifty-tshirtdiscover.png',
         productName: 'Tshirt',
         category: 'Tees',
         price: 10000,
@@ -24,7 +24,7 @@ export const showCaseProductWears = [
         id: '44260',
     },
     {
-        image: 'images/thrify-sweatshirt1.jpg',
+        image: '../../images/thrify-sweatshirt1.jpg',
         productName: 'SweatShirt',
         category: 'Sweatshirts',
         price: 7000,
@@ -35,7 +35,7 @@ export const showCaseProductWears = [
 
 export const newProductArrivals = [
     {
-        image: 'images/thrifty-newshirts0.jpg',
+        image: '../../images/thrifty-newshirts0.jpg',
         productName: 'Cropped Tees 104',
         category: 'Cropped Tees',
         price: 15000,
@@ -43,7 +43,7 @@ export const newProductArrivals = [
         id: '24317',
     },
     {
-        image: 'images/thrifty-newshirt1.jpg', 
+        image: '../../images/thrifty-newshirt1.jpg', 
         productName: 'Maxillan Tshirt',
         category: 'Cropped Tees',
         price: 19500,
@@ -51,7 +51,7 @@ export const newProductArrivals = [
         id: '30147',
     },
     {
-        image: 'images/thrifty-newshirt2.jpg',
+        image: '../../images/thrifty-newshirt2.jpg',
         productName: 'Cropped Tees 106',
         category: 'Cropped Tees',
         price: 20000,
@@ -59,7 +59,7 @@ export const newProductArrivals = [
         id: '54280',
     },
     {
-        image: 'images/thrifty-newshirt3.jpg',
+        image: '../../images/thrifty-newshirt3.jpg',
         productName: 'Alien Tshirt',
         category: 'Cropped Tees',
         price: 27000,
@@ -70,76 +70,84 @@ export const newProductArrivals = [
 
 export const allProducts = [
     {
-        image: 'images/thrifty-newshirts0.jpg',
+        image: '../../images/thrifty-newshirts0.jpg',
         productName: 'Cropped Tees 104',
         category: 'Cropped Tees',
         price: 15000,
         quantity: 0,
         sizes: ['XL', 'L', 'M', 'S', 'XS'],
         id: '24317',
+        productDetails: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, earum. Vel nemo delectus eligendi veritatis repellat modi libero labore incidunt consequatur laboriosam! Delectus eos, ratione accusantium modi fugit libero? Exercitationem.",
     },
     {
-        image: 'images/thrifty-newshirt1.jpg', 
+        image: '../../images/thrifty-newshirt1.jpg', 
         productName: 'Maxillan Tshirt',
         category: 'Cropped Tees',
         price: 19500,
         quantity: 0,
         sizes: ['XL', 'L', 'M', 'S', 'XS'],
         id: '30147',
+        productDetails: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, earum. Vel nemo delectus eligendi veritatis repellat modi libero labore incidunt consequatur laboriosam! Delectus eos, ratione accusantium modi fugit libero? Exercitationem.",
     },
     {
-        image: 'images/thrifty-newshirt2.jpg',
+        image: '../../images/thrifty-newshirt2.jpg',
         productName: 'Cropped Tees 106',
         category: 'Cropped Tees',
         price: 20000,
         quantity: 0,
         sizes: ['XL', 'L', 'M', 'S', 'XS'],
         id: '54280',
+        productDetails: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, earum. Vel nemo delectus eligendi veritatis repellat modi libero labore incidunt consequatur laboriosam! Delectus eos, ratione accusantium modi fugit libero? Exercitationem.",
     },
     {
-        image: 'images/thrifty-newshirt3.jpg',
+        image: '../../images/thrifty-newshirt3.jpg',
         productName: 'Alien Tshirt',
         category: 'Cropped Tees',
         price: 27000,
         quantity: 0,
         sizes: ['XL', 'L', 'M', 'S', 'XS'],
         id: '24600',
+        productDetails: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, earum. Vel nemo delectus eligendi veritatis repellat modi libero labore incidunt consequatur laboriosam! Delectus eos, ratione accusantium modi fugit libero? Exercitationem.",
     },
     {
-        image: 'images/thrify-baggyjean4.jpg',
+        image: '../../images/thrify-baggyjean4.jpg',
         productName: 'Baggy Jean 101',
         category: 'Jeans',
         price: 15000,
         quantity: 0,
         sizes: ['XL', 'L', 'M', 'S', 'XS'],
         id: '24567',
+        productDetails: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, earum. Vel nemo delectus eligendi veritatis repellat modi libero labore incidunt consequatur laboriosam! Delectus eos, ratione accusantium modi fugit libero? Exercitationem.",
     },
     {
-        image: 'images/thrifty-baggyjean3.jpg',
+        image: '../../images/thrifty-baggyjean3.jpg',
         productName: 'Baggy Jean 103',
         category: 'Jeans',
         price: 16500,
         quantity: 0,
         sizes: ['XL', 'L', 'M', 'S', 'XS'],
         id: '36827',
+        productDetails: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, earum. Vel nemo delectus eligendi veritatis repellat modi libero labore incidunt consequatur laboriosam! Delectus eos, ratione accusantium modi fugit libero? Exercitationem.",
     },
     {
-        image: 'images/thrifty-tshirtdiscover.png',
+        image: '../../images/thrifty-tshirtdiscover.png',
         productName: 'Tshirt',
         category: 'Tees',
         price: 10000,
         quantity: 0,
         sizes: ['XL', 'L', 'M', 'S', 'XS'],
         id: '44260',
+        productDetails: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, earum. Vel nemo delectus eligendi veritatis repellat modi libero labore incidunt consequatur laboriosam! Delectus eos, ratione accusantium modi fugit libero? Exercitationem.",
     },
     {
-        image: 'images/thrify-sweatshirt1.jpg',
+        image: '../../images/thrify-sweatshirt1.jpg',
         productName: 'SweatShirt',
         category: 'Sweatshirts',
         price: 7000,
         quantity: 0,
         sizes: ['XL', 'L', 'M', 'S', 'XS'],
         id: '21550',
+        productDetails: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, earum. Vel nemo delectus eligendi veritatis repellat modi libero labore incidunt consequatur laboriosam! Delectus eos, ratione accusantium modi fugit libero? Exercitationem.",
     },
 ]
 

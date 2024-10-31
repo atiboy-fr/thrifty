@@ -4,6 +4,7 @@ import SizesButton from './SizesButton'
 import { useCart } from '../context/CartContextProvider'
 import Counter from './Counter'
 import AddToCart from './AddToCart'
+import { Link } from 'react-router-dom'
 
 function ShopProduct({product}) {
 
@@ -36,10 +37,12 @@ function ShopProduct({product}) {
 
   return (
     <div className={styles.productItem}>
+      <Link to={`/product/${id}`}>
         <img src={image} alt={productName} className={styles.productImg} />
         <p className={styles.category}>{category}</p>
         <h3 className={styles.name}>{productName}</h3>
         <p className={styles.price}>₦{price}</p>
+      </Link>
         <div className={styles.sizes}>
           {sizes.map((size) => (
               <SizesButton key={size}>{size}</SizesButton>

@@ -6,8 +6,8 @@ import styles from './CartItem.module.css'
 function CartItem({item}) {
     const {addToCart, deleteFromCart, increaseQuantity, decreaseQuantity, clearCart} = useCart()
     const {image, productName, category, price, quantity, sizes, id} = item
-    const currentQuantity = item.quantity
-    const totalItemPrice = currentQuantity * price
+    // const currentQuantity = item.quantity
+    const totalItemPrice = quantity * price
 
 
     function handleIncrease() {
@@ -35,7 +35,7 @@ function CartItem({item}) {
 
         <div className={styles.cartButtons}>
             <div className={styles.delete}><button className={styles.deleteBtn} onClick={handleDeleteFromCart}>X</button></div>
-            <Counter handleCounterDecrease={handleDecrease} handleCounterIncrease={handleIncrease} quantity={currentQuantity}/>
+            <Counter handleCounterDecrease={handleDecrease} handleCounterIncrease={handleIncrease} quantity={quantity}/>
         </div>
     </li>
   )
