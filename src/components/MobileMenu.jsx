@@ -14,9 +14,6 @@ function MobileMenu() {
             <li>
             <NavLink to={'/contact'}>Contact us</NavLink>
             </li>
-            <li>
-            <NavLink to={'/admin'}>Admin Panel</NavLink>
-            </li>
         </ul>
   )
 }

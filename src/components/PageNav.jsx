@@ -27,9 +27,6 @@ function PageNav({includeSearch = true}) {
               <li>
                 <NavLink to={'/contact'}>Contact us</NavLink>
               </li>
-              <li>
-                <NavLink to={'/admin'}>Admin Panel</NavLink>
-              </li>
           </ul>
           <div className={styles.icons}>
             {includeSearch ? <div>

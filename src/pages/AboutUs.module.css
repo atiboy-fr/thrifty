@@ -10,4 +10,47 @@
 
 .aboutSection {
     height: 100dvh;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.aboutImage {
+    width: 40%;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+.aboutDescription {
+    width: 40%;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    height: fit-content;
+    color: #fff;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .aboutSection {
+        display: block;
+    }
+
+    .aboutImage {
+        width: 100%;
+        max-height: 350px;
+        border-radius: 10px;
+    }
+    
+    .aboutDescription {
+        width: 100%;
+        font-size: 0.9rem;
+        line-height: 1.2rem;
+        font-weight: 500;
+    }
 }

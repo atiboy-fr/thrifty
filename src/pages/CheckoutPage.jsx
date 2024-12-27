@@ -11,7 +11,7 @@ function CheckoutPage() {
         </div>
 
         <section className={styles.checkoutSection}>
-        
+          <h2>Project in Progress</h2>
         </section>
 
         <Footer />
